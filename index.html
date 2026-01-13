@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Soluções Web & IA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PORTFÓLIO<span>.GUSTAVO OLIVEIRA</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#tecnologias">Tecnologias</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transformando Ideias em <span class="neon-text">Realidade Digital</span></h1>
+            <p>Desenvolvimento Web Moderno & Criação Visual com Inteligência Artificial.</p>
+            <a href="#contato" class="btn">Fazer Orçamento</a>
+        </div>
+    </header>
+
+    <section id="servicos" class="section">
+        <h2 class="section-title">Meus Serviços</h2>
+        <div class="cards-container">
+            <div class="card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Sites Modernos</h3>
+                <p>Criação de sites responsivos, rápidos e otimizados para todos os dispositivos.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-camera-retro"></i>
+                <h3>Imagens & Fotos com IA</h3>
+                <p>Ensaios fotográficos virtuais e geração de imagens realistas para publicidade.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-video"></i>
+                <h3>Vídeos de Produtos</h3>
+                <p>Animações e vídeos de produtos e ambientes criados com Inteligência Artificial.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-magic"></i>
+                <h3>Restauração de Fotos</h3>
+                <p>Recuperação de fotos antigas e colorização utilizando algoritmos avançados de IA.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-pen-nib"></i>
+                <h3>Logomarcas</h3>
+                <p>Identidade visual única e logotipos criados sob medida para o seu negócio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="section tech-bg">
+        <h2 class="section-title">Tecnologias</h2>
+        <div class="tech-icons">
+            <div class="tech-item">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+            </div>
+            <div class="tech-item">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+            </div>
+            <div class="tech-item">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="section">
+        <h2 class="section-title">Projetos Recentes</h2>
+        <div class="cards-container">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Site Institucional</h3>
+                    <p>Site de uma Cafeteria.</p>
+                    <a href="https://gustavo-oliveira-dev.github.io/projeto-cafeteria/index.html#" target="_blank" class="btn-small">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Landing Page</h3>
+                    <p>Página de alta conversão para produto digital.</p>
+                    <a href="https://gustavo-oliveira-dev.github.io/Projeto-easy-shopping/" target="_blank" class="btn-small">Ver Projeto</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Galeria IA</h3>
+                    <p>Portfólio de imagens geradas artificialmente.</p>
+                    <a href="imagens.html" target="_blank" class="btn-small">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section contact-section">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Vamos conversar?</h3>
+                <p><i class="fas fa-envelope"></i> petteta@gmail.com.com</p>
+                <p><i class="fab fa-whatsapp"></i> (84) 99657-0532</p>
+                <p><i class="fas fa-map-marker-alt"></i> Parnamirim, RN</p>
+            </div>
+            
+            <form action="https://formsubmit.co/petteta@gmail.com" method="POST" class="contact-form" id="formContato">
+    
+    <input type="hidden" name="_next" value="https://seusite.com/index.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Novo contato do Portfólio!">
+
+    <input type="text" name="nome" placeholder="Seu Nome" required>
+    <input type="email" name="email" placeholder="Seu E-mail" required>
+    <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+    
+    <button type="submit" class="btn">Enviar Mensagem</button>
+</form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gustvo Oliveira. Todos os direitos reservados.</p>
+    </footer>
+
+    <a href="https://wa.me/5584996570532" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

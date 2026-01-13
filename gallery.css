@@ -1,0 +1,99 @@
+/* --- Estilos Específicos da Galeria --- */
+
+/* Hero da Galeria - menor que a do site principal */
+.gallery-hero {
+    padding: 150px 20px 80px;
+    text-align: center;
+    background: radial-gradient(circle at top, #1a1a1a 0%, var(--bg-color) 100%);
+}
+
+.gallery-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.gallery-hero p {
+    color: var(--gray-text);
+}
+
+/* Grid Layout Responsivo */
+.gallery-grid {
+    display: grid;
+    /* Cria colunas automáticas: mínimo de 300px, máximo preenche o espaço */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+/* Cartão da Galeria */
+.gallery-card {
+    background-color: var(--card-bg);
+    border: 1px solid #333;
+    border-radius: 12px;
+    overflow: hidden; /* Garante que a imagem não saia da borda redonda */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 243, 255, 0.15); /* Brilho Neon suave */
+    border-color: var(--neon-blue);
+}
+
+/* Container da Imagem */
+.img-container {
+    width: 100%;
+    height: 250px; /* Altura fixa para manter o padrão */
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Corta a imagem para preencher sem esticar */
+    transition: transform 0.5s ease;
+}
+
+/* Zoom suave na imagem ao passar o mouse */
+.gallery-card:hover .img-container img {
+    transform: scale(1.1);
+}
+
+
+
+/* Conteúdo de Texto do Cartão */
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-content h3 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    color: var(--gray-text);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* --- Estilos Específicos para Vídeos --- */
+.video-container {
+    width: 100%;
+    background: #000;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 400px;
+}
+
+/* Ajuste para telas verticais (Moda) se necessário */
+.vertical-img {
+    height: 400px; /* Fotos de moda costumam ser mais altas */
+}

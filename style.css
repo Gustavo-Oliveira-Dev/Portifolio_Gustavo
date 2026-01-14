@@ -44,6 +44,7 @@ body {
 .logo span {
     color: var(--neon-blue);
     text-shadow: 0 0 5px var(--neon-blue);
+    font-size: 2.0rem;
 }
 
 .nav-links {

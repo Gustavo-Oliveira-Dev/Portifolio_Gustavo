@@ -286,6 +286,11 @@ footer {
     box-shadow: 0 0 15px var(--neon-blue);
 }
 
+#insta {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
 /* --- Responsividade (Mobile) --- */
 @media (max-width: 768px) {
     .nav-links {
